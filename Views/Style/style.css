@@ -1,0 +1,1509 @@
+
+/***********************ACCUEIL************************/
+a {
+	text-decoration: none;
+
+}
+
+ul li {
+	list-style-type: none;
+}
+
+
+/* Desktop */
+.Desktop {
+	position: relative;
+	height: 2021px;
+	width: 100%;
+	background: #FFFFFF;
+}
+
+
+
+/* Rectangle */
+.Rectangle {
+	position: absolute;
+	width: 100%;
+	height: 733px;
+	left: 0px;
+	top: 0px;
+
+	background: linear-gradient(0deg, rgba(8, 92, 119, 0.79), rgba(8, 92, 119, 0.79)), url(../image/Rectangle.png);
+	background-repeat: repeat;
+}
+
+
+/* Rectangle */
+.Rectangle1 {
+	position: absolute;
+	width: 217px;
+	height: 40px;
+	left: 983px;
+	top: 38px;
+
+	background: #FAFF00;
+}
+
+
+
+/* JOBBOOK */
+.JOBBOOK {
+	position: absolute;
+    width: 10%;
+    left: 10%;
+	top: 46px;
+}
+
+/* Find Jobs */
+.findjobs {
+	position: absolute;
+	width: 20%;
+	left: 35%;
+	top: 46px;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+	text-align: center;
+	color: #FFFFFF;
+}
+/* Tableau offre */
+.tableauOffre
+{ 
+	margin-top: 100px;
+	margin-left: 10px;
+}
+.tableauOffres
+{ 
+	padding-top: 50px;
+	margin-left: 10px;
+	font-family: arial;
+}
+/* Find Talents */
+.findtalent {
+	position: absolute;
+	width: 20%;
+	left: 50%;
+	top: 46px;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+/* Sign In */
+.signIn {
+	position: absolute;
+	width: 10%;
+	left: 68%;
+	top: 38px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	text-align: center;
+	border: 1px solid white;
+	
+}
+
+.textsignIn {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 26px;
+	text-align: center;
+	color:white;
+}
+/*  Sign Up */
+.signUp {
+	position: absolute;
+    width: 10%;
+    left: 80%;
+    top: 38px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    background: #FAFF00;
+    
+}
+.textsignUp3 {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 20px;
+	text-align: center;
+
+	color: white;
+}
+.textsignUp {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 20px;
+	text-align: center;
+
+	color: black;
+}
+.textsignUp1 {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+	text-align: center;
+
+	color: #000000;
+}
+/* Let us help you find the right job for you */
+.letushelp {
+	position: absolute;
+	width: 40%;
+	height: 143px;
+	left: 30%;
+	top: 295px;
+
+	font-family: Arvo;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 54px;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum */
+.description {
+	position: absolute;
+	width: 70%;
+	height: 275px;
+	left: 15%;
+	top: 808px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 32px;
+	text-align: center;
+
+	color: rgba(0, 0, 0, 0.4);
+}
+
+/* How it works */
+.howitwork {
+	position: absolute;
+	width: 20%;
+	height: 26px;
+	left: 40%;
+	top: 1156px;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 32px;
+	text-align: center;
+
+	color: #085C77;
+}
+
+/* image */
+ .wrapper
+{
+	display: grid;
+    max-width: 100%;
+    margin-top: 1250px;
+    grid-column-gap: 8px;
+    grid-row-gap: 3px;
+    justify-content: center;
+} 
+.img1
+{
+	grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.img2
+{
+	grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.img3
+{
+	grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.img4
+{
+	
+	grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.img5
+{
+	grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+}
+/* Our Partners */
+.OurPartners {
+	position: absolute;
+	width: 20%;
+	height: 26px;
+	left: 40%;
+	top: 1930px;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 32px;
+	text-align: center;
+
+	color: #085C77;
+}
+
+.partners {
+	display: flex;
+	flex-direction: row;
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 200px;
+	align-content: space-between;
+	align-items: center;
+
+}
+
+.partnersItems {
+	width: 20%;
+    text-align: center;
+}
+
+/* Rectangle 2 */
+.footer {
+	position: absolute;
+	width: 100%;
+	height: 176px;
+	
+	top: 2300px;
+	background: #000000;
+}
+
+/***********************CONNEXION************************/
+/* Sign In */
+.body {
+	width: 100%;
+}
+
+
+
+/* Rectangle */
+.entete {
+	width: 100%;
+    height: 50px;
+    padding-top: 3%;
+    padding-bottom: 4%;
+	background: linear-gradient(0deg, rgba(8, 92, 119, 0.79), rgba(8, 92, 119, 0.79)), url(../image/Rectangle.png);
+}
+.titre
+{
+	margin-top:200px; 
+}
+/* Rectangle */
+.entetes {
+	position: absolute;
+	width: 100%;
+    height: 120%;
+	top:10px;
+	background: linear-gradient(0deg, rgba(8, 92, 119, 0.79), rgba(8, 92, 119, 0.79)), url(../image/Rectangle.png);
+}
+
+.close {
+	position: absolute;
+    right: 10%;
+
+}
+
+/* JOBBOOK */
+.JOBBOOK1 {
+	position: absolute;
+    left: 10%;
+}
+
+/* Email */
+.email {
+	position: absolute;
+	width: 28%;
+    height: 50px;
+    left: 35%;
+    top: 40%;
+    padding-left: 23px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+
+	border-color: rgba(8, 92, 119, 0.53);
+}
+
+/* Password */
+.password {
+	position: absolute;
+	width: 28%;
+    height: 50px;
+    left: 35%;
+    top: 50%;
+    padding-left: 23px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+	border-color: rgba(8, 92, 119, 0.53);
+	
+}
+
+/* Dont have an account? Sign Up */
+.donthave {
+	position: absolute;
+	width: 30%;
+    left: 35%;
+    top: 70%;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 24px;
+	text-align: center;
+
+	color: #085C77;
+}
+
+/* Sign In */
+.signin {
+	position: absolute;
+	width: 30%;
+    height: 50px;
+    left: 35%;
+    top: 60%;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+	text-align: center;
+	background-color: #085C77;
+	color: rgb(239, 243, 7);
+}
+
+/***********************Choix************************/
+
+/* Rectangle */
+.etudiant {
+	position: absolute;
+	width: 300px;
+	height: 200px;
+	left: 25%;
+	top: 40%;
+	text-align: center;
+	border: 1px solid #085C77;
+	box-sizing: border-box;
+}
+.etudiant:hover {
+	background: rgba(8, 92, 119, 0.17);
+border: 4px solid #085C77;
+}
+
+/* Job Seeker */
+.jobseeker{
+	position: absolute;
+	width: 40%;
+    height: 20%;
+    left: 30%;
+    right: 30%;
+    top: 40%;
+    bottom: 40%;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 36px;
+	text-align: center;
+	
+	color: #085C77;
+}
+.jobseeker:hover {
+	font-weight: 600;
+}
+
+
+/* Rectangle */
+.entreprise{
+	position: absolute;
+	width: 300px;
+	height: 200px;
+	right: 25%;
+	top: 40%;
+	text-align: center;
+	border: 1px solid #085C77;
+	box-sizing: border-box;
+	
+}
+.entreprise:hover {
+	background: rgba(8, 92, 119, 0.17);
+border: 4px solid #085C77;
+}
+
+
+/* Enterprise */
+.enterprise{
+	position: absolute;
+	width: 40%;
+    height: 20%;
+    left: 30%;
+    right: 30%;
+    top: 40%;
+    bottom: 40%;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 36px;
+	text-align: center;
+	
+	color: #085C77;
+}
+.enterprise:hover {
+	font-weight: 600;
+}
+/* I have an account? Sign In */
+.haveaccount{
+	position: absolute;
+	width: 30%;
+	left: 35%;
+	right: 35%;
+	top: 80%;
+	
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 24px;
+	text-align: center;
+	
+	color: #085C77;
+}
+.formetu {
+	width: 20%;
+    margin-left: 35%;
+    margin-right: 40%;
+}
+/* Talent */
+.talent {
+	position: absolute;
+	width: 377px;
+	height: 30px;
+	top: 196px;
+	
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 24px;
+	
+	color: #085C77;
+}
+
+/* prenom etudiant */
+.prenometu {
+	position: absolute;
+	width: 347px;
+	height: 60px;
+	top: 240px;
+
+    padding-left: 30px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+
+	border-color: rgba(8, 92, 119, 0.53);
+}
+
+/* nom etudiant */
+.nometu {
+	position: absolute;
+	width: 347px;
+	height: 60px;
+	top: 322px;
+
+    padding-left: 30px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+
+	border-color: rgba(8, 92, 119, 0.53);
+}
+
+/* Email etudiant */
+.emailetu {
+	position: absolute;
+	width: 347px;
+	height: 60px;
+	top: 404px;
+
+    padding-left: 30px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+
+	border-color: rgba(8, 92, 119, 0.53);
+}
+
+/* Password etudiant */
+.passwordetu {
+	position: absolute;
+	width: 347px;
+	height: 60px;
+	top: 486px;
+
+    padding-left: 30px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+	border-color: rgba(8, 92, 119, 0.53);
+	
+}
+
+/*Edition profil */ 
+/* Talent */
+.talents {
+	position: absolute;
+	width: 377px;
+	height: 30px;
+	left: 500px;
+	top: 100px;
+	
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 30px;
+	
+	color: aliceblue;
+}
+/* prenom  modification etudiant */
+.prenometuE {
+	position: absolute;
+	width: 347px;
+	height: 60px;
+	left: 200px;
+	top: 180px;
+
+    padding-left: 30px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+
+	border-color: rgba(8, 92, 119, 0.53);
+}
+
+/* nom etudiant */
+.nometuE {
+	position: absolute;
+	width: 347px;
+	height: 60px;
+	left: 200px;
+	top: 260px;
+
+    padding-left: 30px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+
+	border-color: rgba(8, 92, 119, 0.53);
+}
+
+/* Email etudiant */
+.emailetuE {
+	position: absolute;
+	width: 347px;
+	height: 60px;
+	left: 200px;
+	top: 340px;
+
+    padding-left: 30px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+
+	border-color: rgba(8, 92, 119, 0.53);
+}
+
+/* Password etudiant */
+.passwordetuE {
+	position: absolute;
+	width: 347px;
+	height: 60px;
+	left: 200px;
+	top: 420px;
+
+    padding-left: 30px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+	border-color: rgba(8, 92, 119, 0.53);
+	
+}
+/* nouveau mdp etudiant */
+.passwordetu2E {
+	position: absolute;
+	width: 347px;
+	height: 60px;
+	left: 200px;
+	top: 500px;
+
+    padding-left: 30px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+
+	border-color: rgba(8, 92, 119, 0.53);
+}
+/* username etudiant */
+.usernameE {
+	position: absolute;
+	width: 347px;
+	height: 60px;
+	left: 200px;
+	top: 580px;
+
+    padding-left: 30px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+
+	border-color: rgba(8, 92, 119, 0.53);
+}
+/* competence etudiant */
+.competence {
+	position: absolute;
+	width: 347px;
+	height: 60px;
+	left: 700px;
+	top: 180px;
+	padding-right: 200px;
+
+    padding-right: 20px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+	border-color: rgba(8, 92, 119, 0.53);
+}
+/* realisation etudiant */
+.realisation {
+	position: absolute;
+	width: 347px;
+	height: 60px;
+	left: 700px;
+	top: 260px;
+	padding-right: 200px;
+
+    padding-right: 20px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+	border-color: rgba(8, 92, 119, 0.53);
+}
+/* formation etudiant */
+.formation {
+	position: absolute;
+	width: 347px;
+	height: 60px;
+	left: 700px;
+	top: 340px;
+	padding-right: 200px;
+
+    padding-right: 20px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+	border-color: rgba(8, 92, 119, 0.53);
+}
+/* langage etudiant */
+.langage {
+	position: absolute;
+	width: 347px;
+	height: 60px;
+	left: 700px;
+	top: 420px;
+	padding-right: 200px;
+
+    padding-right: 20px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+	border-color: rgba(8, 92, 119, 0.53);
+}
+/* centre etudiant */
+.centre {
+	position: absolute;
+	width: 347px;
+	height: 60px;
+	left: 700px;
+	top: 500px;
+	padding-right: 200px;
+
+    padding-right: 20px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+	border-color: rgba(8, 92, 119, 0.53);
+}
+/* date de naissance etudiant */
+.datenaissE {
+	position: absolute;
+	width: 347px;
+	height: 60px;
+	left: 700px;
+	top: 580px;
+
+    padding-right: 20px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+	border-color: rgba(8, 92, 119, 0.53);
+}
+/* Sign In modification */
+.save {
+	position: absolute;
+	width: 381px;
+	height: 60px;
+	left: 500px;
+	top: 680px;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+	text-align: center;
+	background-color: #085C77;
+	color: rgb(243, 239, 23);
+}
+/* Sign In */
+.signupetu {
+	position: absolute;
+	width: 381px;
+	height: 60px;
+	top: 568px;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+	text-align: center;
+	background-color: #085C77;
+	color: rgb(243, 239, 23);
+}
+
+
+/* Enterprise */
+.titleEnterprise {
+	position: absolute;
+	width: 377px;
+	height: 30px;
+	left: 565px;
+	top: 196px;
+	
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 24px;
+	
+	color: #085C77;
+}
+
+/* nom Enterprise */
+.nomese {
+	position: absolute;
+	width: 347px;
+	height: 60px;
+	left: 565px;
+	top: 240px;
+
+    padding-left: 30px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+
+	border-color: rgba(8, 92, 119, 0.53);
+}
+
+/* ninea Enterprise */
+.nineaese {
+	position: absolute;
+	width: 347px;
+	height: 60px;
+	left: 565px;
+	top: 322px;
+
+    padding-left: 30px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+
+	border-color: rgba(8, 92, 119, 0.53);
+}
+
+/* location Enterprise */
+.locationese {
+	position: absolute;
+	width: 347px;
+	height: 60px;
+	left: 565px;
+	top: 404px;
+
+    padding-left: 30px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+
+	border-color: rgba(8, 92, 119, 0.53);
+}
+
+/* email Enterprise */
+.emailese {
+	position: absolute;
+	width: 347px;
+	height: 60px;
+	left: 565px;
+	top: 486px;
+
+    padding-left: 30px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+	border-color: rgba(8, 92, 119, 0.53);
+	
+}
+/* motdepasse Enterprise */
+.mdpese {
+	position: absolute;
+	width: 347px;
+	height: 60px;
+	left: 565px;
+	top: 568px;
+
+    padding-left: 30px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+	border-color: rgba(8, 92, 119, 0.53);
+	
+}
+
+/* Sign up Enterprise */
+.signupese {
+	position: absolute;
+	width: 381px;
+	height: 60px;
+	left: 565px;
+	top:660px;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+	text-align: center;
+	background-color: #085C77;
+	color: rgb(243, 239, 23);;
+}
+.signupeses {
+	position: absolute;
+	width: 381px;
+	height: 60px;
+	left: 565px;
+	top:650px;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+	text-align: center;
+	background-color: #085C77;
+	color: rgb(243, 239, 23);;
+}
+/* Liste offre A */
+.listeA
+{
+	color: aliceblue;
+}
+/* lien Liste A*/
+.lien
+{
+	color: rgb(69, 7, 168);
+}
+/* Profil Etudiant */
+nav ul li
+{
+	list-style-type: none;
+	display: inline-block;
+	padding-left: 80px;
+	padding-bottom: 10px;
+
+}
+nav ul li a
+{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-family: arial;
+	padding-bottom: 70px;
+	font-size: 20px;
+}
+/* Liste offre emploi */
+.listeoffre
+{
+	font-size: 40px;
+	color: #085C77;
+	margin: 188px;
+	margin-top: 20px;
+	margin-bottom: 110px !important;
+	font-family: Open Sans;
+}
+/* Champ liste offre */
+.jobs {
+	position: absolute;
+	width: 290px;
+	height: 50px;
+	left: 200px;
+	top: 250px;
+
+    padding-left: 30px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+
+	border-color: rgba(8, 92, 119, 0.53);
+}
+.location {
+	position: absolute;
+	width: 290px;
+	height: 50px;
+	left: 570px;
+	top: 250px;
+	padding-right: 200px;
+
+    padding-right: 20px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+	border-color: rgba(8, 92, 119, 0.53);
+}
+.saves {
+	position: absolute;
+	width: 150px;
+	height: 50px;
+	right: 280px;
+	top: 250px;
+	padding-left: 700px;
+
+    padding-left: 20px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 16px;
+	background-color: #085C77;
+	color: rgb(243, 239, 23);
+	border-color: rgba(4, 37, 48, 0.53);
+}
+/* Ajout offre */
+.profilassoc {
+	position: absolute;
+	width: 380px;
+	height: 60px;
+	left: 565px;
+	top: 490px;
+
+    padding-left: 30px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+	border-color: rgba(8, 92, 119, 0.53);
+	
+}
+.eseassoc {
+	position: absolute;
+	width: 380px;
+	height: 60px;
+	left: 565px;
+	top: 570px;
+
+    padding-left: 30px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+	border-color: rgba(8, 92, 119, 0.53);
+	
+}
+.signup {
+	position: absolute;
+	width: 380px;
+	height: 60px;
+	left: 565px;
+	top: 486px;
+
+    padding-left: 30px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+	border-color: rgba(8, 92, 119, 0.53);
+	
+}
+.signuppro {
+	position: absolute;
+	width: 381px;
+	height: 60px;
+	left: 565px;
+	top: 450px;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+	text-align: center;
+	background-color: #085C77;
+	color: rgb(243, 239, 23);;
+}
+.signupoffre {
+	position: absolute;
+	width: 381px;
+	height: 60px;
+	left: 565px;
+	top: 590px;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+	text-align: center;
+	background-color: #085C77;
+	color: rgb(243, 239, 23);;
+}
+
+.nomprofil {
+	position: absolute;
+	width: 347px;
+	height: 60px;
+	left: 565px;
+	top: 240px;
+
+    padding-left: 30px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+
+	border-color: rgba(8, 92, 119, 0.53);
+}
+.compprofil {
+	position: absolute;
+	width: 347px;
+	height: 60px;
+	left: 565px;
+	top: 350px;
+
+    padding-left: 30px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+
+	border-color: rgba(8, 92, 119, 0.53);
+}
+.positionligne
+{
+	margin-right:0;
+	margin-left:0; 
+	text-align:center;
+	border: 1px solid black;
+	background: gray;
+}
+/**********************PROFIL*******************/
+.emploi {
+	position: absolute;
+	width: 100px;
+	left: 70%;
+	top: 38px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-align: center;
+	color: white;
+	
+}
+.emploi2 {
+	position: absolute;
+	width: 100px;
+	left: 70%;
+	top: 38px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-align: center;
+	color: white;
+	
+}
+.textsign {
+
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+	text-align: center;
+	color: white;
+}
+.textsign2 {
+
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+	text-align: center;
+	color: white;
+}
+
+.textsignUp2 {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+	text-align: center;
+
+	color: white;
+}
+.profil {
+	position: absolute;
+	width: 100px;
+	left: 60%;
+	top: 38px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-align: center;
+	color: white;
+	
+}
+.profil2 {
+	position: absolute;
+	width: 100px;
+	left: 60%;
+	top: 38px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-align: center;
+	color: white;
+	
+}
+.profil1 {
+	position: absolute;
+	width: 100px;
+	left: 50%;
+	top: 38px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-align: center;
+	color: white;
+	
+}
+.photo
+{
+	position: absolute;
+	width: 100px;
+	left: 80%;
+	top: 5px;
+	padding-top: 5px;
+	padding-bottom: 8px;
+	text-align: center;
+}
+.edit 
+{
+	position: absolute;
+	width: 100px;
+	left: 80%;
+	top: 170px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-align: center;
+	border: 2px solid lightblue;
+	
+}
+
+.textsignIn1 {
+
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 15px;
+	text-align: center;
+}
+
+.detailprofil
+{
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+	margin-top:120px;
+	color: lightblue;
+}
+/*************Dashbords****************/
+.dashboard
+{
+	margin-top:50px;
+	color: #085C77;
+	font-family: normal;
+	margin-left: 120px;
+}
+/***********Flexbox Dashboard*******/
+.container
+{
+	width: 80%;
+	height: auto;
+	background: #FFFFFF;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-flow: wrap;
+}
+.box
+{
+	width: 200px;
+	height: 100px;
+	text-align: center;
+	background: lightgray;
+	margin-top: 30px;
+	padding-top: 0px;
+	margin: 10px;
+	font-family: Open Sans;
+	margin-left: 130px;
+	color: #085C77;
+	line-height: 25px;
+	font-size: 15px;
+
+}
+@media screen and (max-width:1200px)
+{
+	.box
+	{
+		width: 40%;
+	}
+}
+@media screen and (max-width:600px)
+{
+	.box
+	{
+		width: 40%;
+	}
+}
+/************Emplois postulés**************/
+.titre4
+{
+	margin-top: 50px;
+	color:#085C77;
+	font-size: 40px;
+	font-weight: bold;
+	margin-left: 128px;
+	font-family: Open Sans;
+
+}
+.titres
+{
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 570px;
+	padding-top: 5px;
+	font-family: Open Sans;
+}
+.tablle
+{
+	border-collapse: separate;
+	border-spacing: 90px;
+	line-height: 15px;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgb(15, 15, 15);
+	margin-top: 5px;
+	margin-left:80px;
+	font-family: Open Sans;
+}
+}
+.tableauOffr
+{ 
+	
+	margin-left: 100px;
+}
+.container
+{
+	width: 80%;
+	height: auto;
+	background: #FFFFFF;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+
+	flex-flow: wrap;
+}
+.box1
+{
+	width: 200px;
+	height: 100px;
+	text-align: center;
+	background: lightgray;
+	margin-top: 30px;
+	padding-top: 0px;
+	margin: 10px;
+	font-family: Open Sans;
+	margin-left: 130px;
+	color: #085C77;
+	line-height: 25px;
+}
+@media screen and (max-width:1200px)
+{
+	.box1
+	{
+		width: 40%;
+	}
+}
+@media screen and (max-width:600px)
+{
+	.box1
+	{
+		width: 40%;
+	}
+}
+.titres4
+{
+	margin-top: 20px;
+	color:#085C77;
+	font-size: 40px;
+	font-weight: bold;
+	margin-left: 120px;
+	font-family: Open Sans;
+}
+.titress
+{
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 500px;
+	top: 130px;
+	font-family: Open Sans;
+}
+/*******************Detail profil******************/
+.monprofil
+{
+	margin-top: 30px;
+	margin-left: 70px;
+	color: #085C77;
+	font-family: Open Sans;
+}
+.nomoffre
+{
+	text-align: left;
+	font-size: 40px;
+	font-family: Open Sans;
+}
+.nomoffres
+{
+	text-align: left;
+	font-size: 30px;
+	padding-bottom: 200px;
+	font-family: Open Sans;
+
+}
